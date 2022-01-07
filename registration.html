@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="">
+        <label for="name">Name</label><br>
+        <!-- placeholder tag is just to display something in label and fades when somethings typed -->
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age"><br>
+        <label for="phone">Phone number</label><br>
+        <input type="text" id="phone"><br>
+        <label for="mail">Email</label><br>
+        <!-- input type of mail id is :email -->
+        <input type="email" id="mail"><br>
+        <label for="DOB">Date Of Birth</label><br>
+        <!-- input type of DOB is date -->
+        <input type="date" id="DOB"><br>
+        <!-- for selecting any one options from list of options the input type is radio -->
+        <label for="gen">Gender</label><br>
+        <label for="male">male</label><input type="radio" id="male" name="gen">
+        <label for="female">female</label><input type="radio" id="female" name="gen"><br>
+        <label for="add">Address</label>
+        <!-- textarea is for making tables space sufficient to type address -->
+        <textarea name="" id="add" cols="30" rows="20" ></textarea><br>
+        <label for="city">city</label><br>
+        <!-- select tag is used to make dropdown list -->
+        <select name="" id="city">
+            <!-- option tag used to select the or list options -->
+            <option value="">Kochi</option>
+            <option value="">Trissur</option>
+            <option value="">Alappey</option>
+            <option value="">Trivandrum</option>
+        </select><br><br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
